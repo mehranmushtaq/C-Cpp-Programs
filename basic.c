@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//even or odd
 int main() {
     int num;
     printf("Enter a number: ");
@@ -13,7 +13,7 @@ int main() {
     return 0;
 }
 
-
+//largest of three numbers
 int main() {
     int a, b, c;
 
