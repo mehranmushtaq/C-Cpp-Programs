@@ -46,6 +46,6 @@ int main() {
         } while(i <= n);
     }
 
-    printf("Sum = %d\n", sum);
+    printf("Sum of n numbers = %d\n", sum);
     return 0;
 }
