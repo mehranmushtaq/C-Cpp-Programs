@@ -20,11 +20,11 @@ void DescFunc(int n){
         return ;
     }
     printf("%d ", n);
-    Func(n-1);
+    DescFunc(n-1);
 }
 int main(){
     int num =5;
-    Func(num);
+    DescFunc(num);
     return 0;
 }
 
@@ -33,13 +33,13 @@ int main(){
 void AsceFunc(int n){
     if (n == 0){
         return;
-    }
-    Func(n-1);
+    AsceFunc(n-1);
     printf("%d ", n);
     
 }
+}
 int main(){
     int num =5;
-    Func(num);
+    AsceFunc(num);
     return 0;
 }
