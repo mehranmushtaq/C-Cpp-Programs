@@ -43,3 +43,15 @@ int main(){
     AsceFunc(num);
     return 0;
 }
+
+//Sum of N Numbers 
+int Sum(int n){
+    if(n ==1){
+        return 1;
+    }
+    return n + Sum(n-1);
+}
+int main(){
+    printf("%d",Sum(5));
+    return 0;
+}
