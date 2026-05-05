@@ -1,5 +1,5 @@
 #include <stdio.h>
-//factorial
+//factorial in c
 int main() {
     int n, i;
     long long fact = 1;
