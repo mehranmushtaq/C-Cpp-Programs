@@ -3,10 +3,10 @@
 int main() {
     int arr[100], n, i;
 
-    printf("Enter number of elements: ");
+    printf("Enter number of elements of array: ");
     scanf("%d", &n);
 
-    printf("Enter %d elements:\n", n);
+    printf("Enter elements:\n", n);
     for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -25,7 +25,7 @@ int main() {
 int main() {
     int arr[100], n, i, key, found = 0;
 
-    printf("Enter number of elements: ");
+    printf("Enter number of elements of array: ");
     scanf("%d", &n);
 
     printf("Enter %d elements:\n", n);
