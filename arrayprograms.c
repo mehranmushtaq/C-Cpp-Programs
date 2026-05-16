@@ -42,7 +42,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("Enter element to insert at beginning: ");
+    printf("Enter element to insert at      beginning: ");
     scanf("%d", &element);
 
     for(i = n; i > 0; i--) {
