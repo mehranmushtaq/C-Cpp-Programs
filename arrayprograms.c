@@ -31,8 +31,6 @@ int main() {
 
 // Insertion at Beginning of Array
 
-#include <stdio.h>
-
 int main() {
     int arr[100], n, element, i;
 
@@ -64,8 +62,6 @@ int main() {
 
 // Insertion at a Particular Position
 
-#include <stdio.h>
-
 int main() {
     int arr[100], n, element, pos, i;
 
@@ -94,6 +90,23 @@ int main() {
     for(i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
+
+    return 0;
+}
+
+// Find Maximum Element
+
+int main() {
+    int arr[5] = {12, 45, 7, 89, 34};
+    int max = arr[0];
+
+    for(int i = 1; i < 5; i++) {
+        if(arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    printf("Maximum = %d", max);
 
     return 0;
 }
