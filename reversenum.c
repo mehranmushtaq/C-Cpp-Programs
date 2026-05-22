@@ -16,3 +16,29 @@ int main() {
 
     return 0;
 }
+
+// Function to reverse a number
+int reverseNumber(int n) {
+    int reversed = 0, remainder;
+
+    while (n != 0) {
+        remainder = n % 10;
+        reversed = reversed * 10 + remainder;
+        n = n / 10;
+    }
+
+    return reversed;
+}
+
+int main() {
+    int number, result;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    result = reverseNumber(number);
+
+    printf("Reversed number = %d\n", result);
+
+    return 0;
+}
