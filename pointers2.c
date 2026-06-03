@@ -14,7 +14,7 @@ int main(){
 
 // Pass By Reference
 void modify(int *x){
-    *x=10;
+    *x = 10;
 }
 int main(){
     int a = 5;
