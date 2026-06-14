@@ -14,7 +14,7 @@ int main(){
 
 
 
-//numbers in descending order order
+//numbers in descending  order
 void DescFunc(int n){
     if (n ==0){
         return ;
