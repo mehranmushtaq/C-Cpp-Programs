@@ -14,7 +14,6 @@ int main() {
     return 0;
 }
 
-#include <stdio.h>
 // while loop
 int main() {
     int n, i = 1, sum = 0;
