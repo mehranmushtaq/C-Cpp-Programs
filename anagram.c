@@ -18,8 +18,8 @@ int main() {
     }
 
     for(i = 0; str1[i] != '\0'; i++) {
-        count[(int)str1[i]]++;
-        count[(int)str2[i]]--;
+        count[str1[i]]++;
+        count[str2[i]]--;
     }
 
     for(i = 0; i < 256; i++) {
