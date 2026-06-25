@@ -20,7 +20,7 @@ int main() {
 }
 #include <stdio.h>
 
-//Linear Search
+// Linear Search
 
 int main() {
     int arr[100], n, i, key, found = 0;
@@ -51,7 +51,7 @@ int main() {
     return 0;
 }
 
-//Bubble Sort
+// Bubble Sort
 
 
 int main() {
