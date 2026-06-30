@@ -1,3 +1,3 @@
 ## Basic C Programs
 
-Cse Ist Year Assignment.
+Cse Ist Year Assignments.
