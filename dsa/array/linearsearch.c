@@ -1,26 +1,29 @@
 #include <stdio.h>
 
-int linearSearch(int arr[], int n, int key) {
+void linearSearch(int arr[], int n, int key) {
+    int count =0;
+    int flag =0;
     for (int i = 0; i < n; i++) {
         if (arr[i] == key) {
-            return i;   // return index
+            printf("found at position %d\n",i);
+            count++;
+            flag=1;
         }
     }
+    if(flag ==0){
+        printf("element not found\n");
+    }else{
+        printf("total occurences = %d\n",count);
+    }
 
-    return -1;  // not found
+   
 }
 
 int main() {
-    int arr[] = {10, 20, 30, 40, 50};
+    int arr[] = {10, 20, 10, 40, 50};
     int n = 5;
-    int key = 30;
+    int key = 10;
 
     int result = linearSearch(arr, n, key);
-
-    if (result != -1)
-        printf("Element found at index %d", result);
-    else
-        printf("Element not found");
-
     return 0;
 }
