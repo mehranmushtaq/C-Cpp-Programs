@@ -7,7 +7,7 @@ void linearSearch(int arr[], int n, int key) {
         if (arr[i] == key) {
             printf("found at position %d\n",i);
             count++;
-            flag=1;
+            flag = 1;
         }
     }
     if(flag ==0){
